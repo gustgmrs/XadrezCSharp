@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Tabuleiro
+namespace _Tabuleiro
 {
     public class Peca
     {
@@ -20,7 +20,6 @@ namespace Tabuleiro
             QtdMovimentos = 0;
             Tabuleiro = tabuleiro;
         }
-
 
     }
 }

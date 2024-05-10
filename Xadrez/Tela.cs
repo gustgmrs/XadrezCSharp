@@ -9,7 +9,7 @@ namespace Xadrez
 {
     public class Tela
     {
-        public static void ImprimirTabuleiro(Tabuleiro tab)
+        public static void ImprimirTabuleiro(_Tabuleiro.Tabuleiro tab)
         {
             for (int i = 0; i < tab.Linhas; i++)
             {

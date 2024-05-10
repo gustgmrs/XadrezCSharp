@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using _Tabuleiro;
 using Xadrez.JogoXadrez;
 using Xadrez.Tabuleiro;

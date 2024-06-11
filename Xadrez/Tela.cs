@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using _Tabuleiro;
@@ -24,6 +25,10 @@ namespace Xadrez
             Console.WriteLine();
             Console.WriteLine("Turno: " + partida.Turno);
             Console.WriteLine("Aguardando jogada da peças: " + partida.JogadorAtual + "s.");
+            if (partida.Xeque)
+            {
+                Console.WriteLine("XEQUE!");
+            }
         }
 
         public static void ImprimirPecasCapturadas(PartidaDeXadrez partida)
